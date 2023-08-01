@@ -22,7 +22,9 @@ const fruits = ()=>{
         var fruit1="apple" //existe de forma global, function scope
         let fruit2="kiwi" // existe solo en el bloque que son declaradas, blacks cope
         const fruit3="banana" // existe solo en el bloque que son declaradas, blacks cope
+    
     }
+
 
     console.log(fruit1)
     console.log(fruit2)

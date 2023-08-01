@@ -12,3 +12,9 @@ const square = (num)=>{
 
 
 const square = num => num*num // esto se puede hacer con la arrow fuction
+
+
+
+
+
+const nombre = num=>num*num
