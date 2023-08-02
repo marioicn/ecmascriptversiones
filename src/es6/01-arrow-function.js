@@ -17,4 +17,18 @@ const square = num => num*num // esto se puede hacer con la arrow fuction
 
 
 
-const nombre = num=>num*num
+
+
+// estudio
+
+
+const suma =num=> 3*num
+
+console.log(suma(5))
+
+
+const materials = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium'];
+
+let numeros = materials.filter((materia)=>materia=="Hydrogen")
+
+console.log(numeros)

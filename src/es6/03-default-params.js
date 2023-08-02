@@ -25,3 +25,13 @@ newAdmin()
 
 newAdmin('Alejandro',29,'Mex')
 
+
+
+//estudio
+
+function sumar(num1, num2=0){
+    console.log(num1+num2)
+
+}
+
+sumar(1)
