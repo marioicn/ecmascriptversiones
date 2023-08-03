@@ -29,3 +29,20 @@ anotherFuncion()
     .then(response=> console.log(response))
     .catch(err=>console.log(err));
    
+
+    // estudio
+
+    let nombre ="mario"
+
+    function versinombreescorrecto (){
+        return new Promise((resolve,reject)=>{
+            if(nombre=="mario"){
+                resolve("si es")
+
+            } else reject ("no es")
+        })
+    }
+
+    versinombreescorrecto()
+        .then(response=>console.log(response))
+        .catch(err=>console.log(err))
